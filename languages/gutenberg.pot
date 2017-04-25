@@ -15,19 +15,19 @@ msgstr ""
 msgid "Strikethrough"
 msgstr ""
 
-#: blocks/components/editable/index.js:47
+#: blocks/components/editable/index.js:46
 #: blocks/library/image/index.js:41
 #: blocks/library/list/index.js:25
 msgid "Align left"
 msgstr ""
 
-#: blocks/components/editable/index.js:52
+#: blocks/components/editable/index.js:51
 #: blocks/library/image/index.js:47
 #: blocks/library/list/index.js:33
 msgid "Align center"
 msgstr ""
 
-#: blocks/components/editable/index.js:57
+#: blocks/components/editable/index.js:56
 #: blocks/library/image/index.js:53
 #: blocks/library/list/index.js:41
 msgid "Align right"
@@ -86,7 +86,11 @@ msgstr ""
 msgid "Insert block"
 msgstr ""
 
-#: editor/components/inserter/menu.js:77
+#: editor/components/inserter/menu.js:87
+msgid "Search blocks"
+msgstr ""
+
+#: editor/components/inserter/menu.js:92
 msgid "Search…"
 msgstr ""
 

@@ -36,7 +36,9 @@ class Inserter extends wp.element.Component {
 					icon="insert"
 					label={ wp.i18n.__( 'Insert block' ) }
 					onClick={ this.toggle }
-					className="editor-inserter__toggle" />
+					className="editor-inserter__toggle"
+					aria-haspopup="true"
+					aria-expanded={ opened ? 'true' : 'false' } />
 				{ opened && <InserterMenu position={ position } onSelect={ this.close } /> }
 			</div>
 		);
