@@ -86,11 +86,11 @@ msgstr ""
 msgid "Insert block"
 msgstr ""
 
-#: editor/components/inserter/menu.js:87
+#: editor/components/inserter/menu.js:88
 msgid "Search blocks"
 msgstr ""
 
-#: editor/components/inserter/menu.js:92
+#: editor/components/inserter/menu.js:93
 msgid "Search…"
 msgstr ""
 
