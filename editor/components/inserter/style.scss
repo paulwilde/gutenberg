@@ -24,7 +24,8 @@
 	padding: 0;
 	transition: color .2s ease;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		color: $blue-medium;
 	}
 }
@@ -142,9 +143,11 @@ input[type=search].editor-inserter__search {
 	border: 1px solid transparent;
 	background: none;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		border: 1px solid $dark-gray-500;
 		position: relative;
+		outline: 0;
 	}
 
 	&:active,
