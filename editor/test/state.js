@@ -449,7 +449,8 @@ describe( 'state', () => {
 				'selectedBlock',
 				'hoveredBlock',
 				'mode',
-				'isSidebarOpened'
+				'isSidebarOpened',
+				'api',
 			] );
 		} );
 	} );
