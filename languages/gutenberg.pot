@@ -134,15 +134,15 @@ msgstr ""
 msgid "Update failed"
 msgstr ""
 
-#: editor/header/tools/publish-button.js:46
+#: editor/header/tools/publish-button.js:45
 msgid "Update"
 msgstr ""
 
-#: editor/header/tools/publish-button.js:48
+#: editor/header/tools/publish-button.js:47
 msgid "Publish"
 msgstr ""
 
-#: editor/header/tools/publish-button.js:96
+#: editor/header/tools/publish-button.js:94
 msgid "An unknown error occurred."
 msgstr ""
 
