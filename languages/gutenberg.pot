@@ -41,11 +41,19 @@ msgstr ""
 msgid "Align right"
 msgstr ""
 
-#: blocks/library/embed/index.js:10
+#: blocks/library/embed/index.js:34
+msgid "Embed URL"
+msgstr ""
+
+#: blocks/library/embed/index.js:37
+msgid "Enter URL to embed here..."
+msgstr ""
+
+#: blocks/library/embed/index.js:39
 msgid "Embed"
 msgstr ""
 
-#: blocks/library/embed/index.js:33
+#: blocks/library/embed/index.js:54
 #: blocks/library/image/index.js:81
 msgid "Write caption…"
 msgstr ""
