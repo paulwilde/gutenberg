@@ -70,7 +70,7 @@ class InserterMenu extends wp.element.Component {
 
 	sortBlocksByCategory( blockTypes ) {
 		const getCategoryIndex = ( item ) => {
-			return findIndex( wp.blocks.getCategories(), ( category ) => category.slug === item.category );
+			return findIndex( wp.blocks.getCategories(), ( category ) => category.name === item.category );
 		};
 
 		return sortBy( blockTypes, getCategoryIndex );
@@ -229,11 +229,11 @@ class InserterMenu extends wp.element.Component {
 			<Popover position={ position } className="editor-inserter__menu">
 				<div role="menu" className="editor-inserter__content">
 					{ wp.blocks.getCategories()
-						.map( ( category ) => !! visibleBlocksByCategory[ category.slug ] && (
-							<div key={ category.slug }>
+						.map( ( category ) => !! visibleBlocksByCategory[ category.name ] && (
+							<div key={ category.name }>
 								<div
 									className="editor-inserter__separator"
-									id={ `editor-inserter__separator-${ category.slug }-${ instanceId }` }
+									id={ `editor-inserter__separator-${ category.name }-${ instanceId }` }
 									aria-hidden="true"
 								>
 									{ category.title }
@@ -242,9 +242,9 @@ class InserterMenu extends wp.element.Component {
 									className="editor-inserter__category-blocks"
 									role="menu"
 									tabIndex="0"
-									aria-labelledby={ `editor-inserter__separator-${ category.slug }-${ instanceId }` }
+									aria-labelledby={ `editor-inserter__separator-${ category.name }-${ instanceId }` }
 								>
-									{ visibleBlocksByCategory[ category.slug ].map( ( block ) => (
+									{ visibleBlocksByCategory[ category.name ].map( ( block ) => (
 										<button
 											role="menuitem"
 											key={ block.name }

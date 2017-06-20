@@ -7,7 +7,12 @@ export { query };
 export { createBlock, switchToBlockType } from './factory';
 export { default as parse } from './parser';
 export { default as serialize } from './serializer';
-export { getCategories } from './categories';
+export {
+	registerCategory,
+	unregisterCategory,
+	getCategory,
+	getCategories,
+} from './categories';
 export {
 	registerBlockType,
 	unregisterBlockType,
